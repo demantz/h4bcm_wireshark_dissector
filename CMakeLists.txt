@@ -28,7 +28,7 @@ set(CMAKE_BACKWARDS_COMPATIBILITY 3.0)
 set(CMAKE_MODULE_PATH ${CMAKE_SOURCE_DIR}/cmake)
 
 IF ( NOT CMAKE_INSTALL_LIBDIR )
-  set(CMAKE_INSTALL_LIBDIR ~/.local/lib/wireshark/plugins/3.0/epan)
+  set(CMAKE_INSTALL_LIBDIR ~/.local/lib/wireshark/plugins/3.2/epan)
 ENDIF ( NOT CMAKE_INSTALL_LIBDIR )
 MESSAGE (STATUS "Plugin will be installed in: ${CMAKE_INSTALL_LIBDIR}")
 
